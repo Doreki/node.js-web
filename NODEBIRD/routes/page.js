@@ -21,7 +21,7 @@ router.get('/join', (req, res) => {
 router.get('/', (req, res, next) => {
   const twits = [];
   res.render('main', {
-    titl: 'NodeBird',
+    title: 'NodeBird',
     twits,
   });
 });
